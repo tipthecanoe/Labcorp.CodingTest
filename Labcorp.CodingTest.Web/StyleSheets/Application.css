@@ -1,0 +1,17 @@
+﻿/*------------------------------------------------------------*/
+/*  This is the application stylesheet.                       */
+/*------------------------------------------------------------*/
+/*  It combines the individual element stylesheets            */
+/*  so only 1 application stylesheet needs to be loaded       */
+/*  and the browser handles everything else.                  */
+/*------------------------------------------------------------*/
+
+@import url('/StyleSheets/ElementSheets/Backgrounds.css');
+@import url('/StyleSheets/ElementSheets/Borders.css');
+@import url('/StyleSheets/ElementSheets/Buttons.css');
+@import url('/StyleSheets/ElementSheets/Debug.css');
+@import url('/StyleSheets/ElementSheets/Images.css');
+@import url('/StyleSheets/ElementSheets/Layouts.css');
+@import url('/StyleSheets/ElementSheets/Pointers.css');
+@import url('/StyleSheets/ElementSheets/Tables.css');
+@import url('/StyleSheets/ElementSheets/Texts.css');

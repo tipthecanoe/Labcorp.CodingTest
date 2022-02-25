@@ -1,0 +1,314 @@
+﻿/*---------------------------------------/
+/  Tables - table, row, cell
+/          border, padding, spacing
+----------------------------------------*/
+
+/* Borders 
+----------------------------------------*/
+table.collapse {
+    border-collapse: collapse;
+}
+table.separate {
+    border-collapse: separate;
+}
+table.no-border {
+    border-width: 0;
+    border-collapse: collapse;
+    border-style: none;
+}
+table.no-padding th tr td {
+    padding: 0px;
+}
+table.no-padding-or-spacing th tr td {
+    border-collapse: collapse;
+    padding: 0px;
+}
+table.pad-3-by-3 th tr td {
+    padding: 3px;
+}
+table.pad-5-by-5 th tr td {
+    padding: 5px;
+}
+table.pad-10-by-10 th tr td {
+    padding: 10px;
+}
+table.no-spacing {
+    border-collapse: collapse;
+}
+table.layout {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0;
+    text-align: left;
+}
+table.layout tr.spacer {
+    height: 20px;
+}
+table.content {
+    border-collapse: separate;
+    border-spacing: 3px;
+    padding: 2px;
+    text-align: left;
+}
+table.content tr,
+table.content tr td {
+    border-color: gray;
+    border-style: dotted;
+    border-width: 2px;
+}
+table.grid {
+    border-collapse: separate;
+    border-color: #EEE;
+    border-style: none;
+}
+table.grid th {
+    color: #333;
+    font-weight: bold;
+}
+table.grid tr {
+    background-color: #EEE;
+    height: 20px;
+}
+table.grid tr-alt {
+    background-color: #FFF;
+    height: 20px;
+}
+
+/* Prompt table
+----------------------------------------*/
+table.prompt {
+    border-collapse: separate;
+    border-spacing: 3px;
+    text-align: left;
+}
+table.prompt tr.spacer {
+    height: 20px;
+}
+table.prompt td {
+    width: 50%;
+}
+table.prompt td.label {
+	font-weight: bold;
+	text-align: right;
+}
+table.prompt td.text {
+    font-size: 0.8em;
+}
+
+/*--------------------------------------*/
+table.paper
+/*--------------------------------------*/
+
+table.material {
+  font-family: 'Arial';
+  font-size: 0.70em;
+  line-height: 1.0em;
+  margin: 25px auto;
+  border-collapse: collapse;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-top: 1px solid #eee;
+  border-bottom: none; /* 2px solid #00cccc;*/
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1),
+      0px 10px 20px rgba(0, 0, 0, 0.05),
+      0px 20px 20px rgba(0, 0, 0, 0.05),
+      0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+table.material thead,
+table.material tbody,
+table.material tfoot,
+table.material tr,
+table.material th,
+table.material td {
+    font-size: inherit;
+}
+table.material tr:hover {
+  background: #f4f4f4;
+}
+table.material tr:hover td {
+  color: #555;
+}
+/*table.material th, table.material td {*/
+table.material th,
+table.material td {
+  border: 1px solid #EEE;
+  color: #999;
+  padding:  0.3em 0.8em;
+  border-collapse: collapse;
+}
+table.material th {
+  background: #DDD; /*#00cccc;*/
+  color: #000; /*#fff;*/
+  /*text-transform: uppercase;*/
+  /*font-size: 0.85em;*/
+}
+table.material th.last {
+  border-right: none;
+}
+table.material tr.last {
+  border-bottom: 2px solid #0CC;
+}
+
+/*--------------------------------------*/
+/*.border-inset {*/
+table.inset {
+    border-style: inset
+}
+/*.border-none {*/
+table.none {
+    border-style: none;
+}
+/*.border-dashed {*/
+table.dashed {
+    border-style: dashed;
+}
+/*.border-dotted {*/
+table.dotted {
+    border-style: dotted;
+}
+/*.border-double {*/
+table.double {
+    border-style: double
+}
+table.solid {
+    border-style: solid
+}
+
+/*--------------------------------------*/
+
+/* Tables */
+table.no-border {
+    border: 0px none;
+    border-collapse: collapse;
+}
+table.no-padding th tr td {
+    padding: 0px;
+}
+table.no-padding-or-spacing th tr td {
+    border-collapse: collapse;
+    padding: 0px;
+}
+table.pad-5-by-5 th tr td {
+    padding: 5px;
+}
+table.pad-10-by-10 th tr td {
+    padding: 10px;
+}
+table.no-spacing {
+    border-collapse: collapse;
+}
+table.layout {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    padding: 0px;
+    text-align: left;
+}
+table.content-layout {
+    border-collapse: separate;
+    border-spacing: 3px;
+    text-align: left;
+}
+
+table.ghost-grid {
+    border-collapse: separate;
+}
+table.ghost-grid,
+table.ghost-grid tr td {
+    border-spacing: 2px;
+    border-style: dotted;
+    padding: 2px;
+    text-align: left;
+}
+
+/* Grid selectors
+----------------------------------*/
+.grid-default {
+	border-style: none;
+	border-color: #EEEEEE;
+}
+.grid-header {
+    color: #333333;
+    font-weight: bold;
+}
+.grid-row {
+    background-color: #EEEEEE;
+    height: 20px;
+}
+.grid-row-alt {
+    background-color: #FFFFFF;
+    height: 20px;
+}
+
+/* Layout
+/*----------------------------------------*/
+table.layout {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+table.layout spacer {
+    content: '\a0\20'
+}
+
+/* Padded
+/*----------------------------------------*/
+table.padded {
+    border-collapse: separate;
+    border-spacing: 0.2em;
+    margin: 0;
+    padding: 0.1em;
+    text-align: left;
+}
+table.padded spacer {
+    content: '\a0\20'
+}
+
+/* Prompt
+/*----------------------------------------*/
+table.prompt {
+    border-collapse: separate;
+    border-spacing: 0.2em;
+    /*display: inline-block;*/
+    font-size: 0.8em;
+    text-align: left;
+}
+table.prompt spacer {
+    content: '\a0\20'
+}
+table.prompt > tbody > tr > td:first-child,
+table.prompt > tr > td:first-child {
+    font-weight: bold;
+    text-align: right;
+    width: 50%;
+}
+table.prompt > tbody > tr > td + td,
+table.prompt > tr > td + td {
+    font-weight: normal;
+    text-align: inherit;
+    white-space: nowrap;
+    width: 50%;
+}
+
+
+/* Testing related
+------------------------------------------------------------*/
+table.testing {
+    border-collapse: separate;
+    border-spacing: 0.2em;
+    padding: 0.2em;
+    text-align: left;
+}
+table.testing > tbody > tr,
+table.testing > tbody > tr > td {
+    border-color: gray;
+    border-style: dotted;
+    border-width: 0.2em;
+}
+table.testing > tbody > tr > td {
+    padding: 0.6em;
+}
+
+
+/*----------------------------------------*/

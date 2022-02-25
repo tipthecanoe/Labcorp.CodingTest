@@ -1,0 +1,63 @@
+﻿/*---------------------------------------/
+/  Backgrounds
+----------------------------------------*/
+
+/* Background opacity
+----------------------------------------*/
+.opaque {
+    opacity: 1.0;
+}
+.see-through {
+    opacity: 0.0;
+}
+
+/* Background color
+----------------------------------------*/
+.no-backing {
+    background-color: none;
+}
+.backing.transparent {
+    background-color: transparent;
+}
+.backing.red {
+    background-color: red;
+}
+.backing.blue {
+    background-color: blue;
+}
+.backing.cyan {
+    background-color: cyan;
+}
+.backing.green {
+    background-color: green;
+}
+.backing.yellow {
+    background-color: yellow;
+}
+.backing.orange {
+    background-color: orange;
+}
+.backing.purple {
+    background-color: purple;
+}
+.backing.gray {
+    background-color: gray;
+}
+.backing.black {
+    background-color: black;
+}
+.backing.white {
+    background-color: #FFF;
+}
+.backing.gray-dark,
+.backing.gray-51 {
+    background-color: #333;
+}
+.backing.gray-medium,
+.backing.gray-175 {
+    background-color: #AFAFAF;
+}
+.backing.gray-light,
+.backing.gray-215 {
+    background-color: #D7D7D7;
+}

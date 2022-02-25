@@ -1,0 +1,83 @@
+﻿/*---------------------------------------/
+/  Text
+/
+----------------------------------------*/
+.capitalize {
+    text-transform:capitalize
+}
+.lowercase {
+    text-transform:capitalize
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/* Text
+----------------------------------------*/
+
+
+.text-150-percent {
+    font-size: 1.5em;
+}
+.text-140-percent {
+    font-size: 1.4em;
+}
+.text-130-percent {
+    font-size: 1.3em;
+}
+.text-125-percent {
+    font-size: 1.25em;
+}
+.text-120-percent {
+    font-size: 1.2em;
+}
+/*--------------------------------------*/
+.text-100-percent {
+    font-size: 1.0em;
+}
+.text-95-percent {
+    font-size: 0.95em;
+}
+.text-90-percent {
+    font-size: 0.90em;
+}
+.text-85-percent {
+    font-size: 0.85em;
+}
+.text-80-percent {
+    font-size: 0.80em;
+}
+.text-75-percent {
+    font-size: 0.75em;
+}
+.text-70-percent {
+    font-size: 0.70em;
+}
+.text-60-percent {
+    font-size: 0.60em;
+}
+.text-50-percent {
+    font-size: 0.50em;
+}
+
+.bold {
+    font-weight: bold;
+}
+.normal {
+    font-weight: normal;
+}
+
+/* Whitespace
+----------------------------------------*/
+.no-wrap {
+    white-space: nowrap;
+}
+
+
+/* Messages
+----------------------------------------*/
+.message-error {
+    background-color: red;
+    color: yellow;
+}

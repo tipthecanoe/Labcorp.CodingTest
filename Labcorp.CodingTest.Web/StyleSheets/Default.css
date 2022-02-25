@@ -1,0 +1,10 @@
+﻿/*------------------------------------------------------------*/
+/*  This is the default stylesheet.                           */
+/*------------------------------------------------------------*/
+/*  It combines the normalize and site specific stylesheets   */
+/*  so only 1 stylesheet needs to be loaded and the browser   */
+/*  handles everything else.                                  */
+/*------------------------------------------------------------*/
+
+@import url('[normalize.css v3.0.1 - MIT License - git.io[forward-slash]normalize].css');
+@import url('Application.css');

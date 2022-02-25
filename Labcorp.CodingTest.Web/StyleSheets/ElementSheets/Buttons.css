@@ -1,0 +1,195 @@
+﻿/*---------------------------------------/
+/  Buttons - link and push buttons
+----------------------------------------*/
+
+/* Link Button base styles
+----------------------------------------*/
+a {
+    border: 0 none;
+    /*display: inline-block;*/
+    font-size: inherit;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 100%;
+    /*min-width: 2.0em;*/
+    outline: none;
+    position: relative;
+    text-decoration: none;
+    text-transform: none;
+    /*-webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;*/
+    z-index: 0;
+}
+
+/* Flat style
+----------------------------------------*/
+a.flat {
+    background-color: transparent;
+    border-radius: 0.2em;
+    /*color: #000;*/
+    cursor: pointer;
+    /*padding: 0.2em 0.5em;*/
+    padding: 0.2em 0.2em;
+}
+a.flat.selected {
+    /*border-color: #E77916;
+    border-width: 1px;*/
+    /*border: 1px dotted #E77916;*/
+    border: 1px solid #999;
+    /*opacity: 0.5;*/
+}
+a.flat:focus {
+    outline: thin dotted #E77916;
+}
+a.flat:hover {
+    /*background-color: #E77916;*/
+    background-color: #999;
+    /*background-color: #BBB;*/
+    color: #FFF;
+    transition: all 0.1s;
+}
+a.flat:disabled {
+    background-color: #000;
+    color: #DDD;
+    transition: all 0.1s;
+}
+a.flat > em {
+    font-size: inherit;
+    font-style: inherit;
+}
+
+/* Raised style
+----------------------------------------*/
+a.raised {
+    background-color: #EEE;
+    border-radius: 0.2em;
+    color: #000;
+    cursor: pointer;
+    padding: 0.2em 0.5em;
+}
+a.raised:focus {
+    outline: thin dotted #E77916;
+}
+a.raised:hover {
+    background-color: #E77916;
+    color: #FFF;
+    transition: all 0.1s;
+}
+a.raised > em {
+    font-size: inherit;
+    font-style: inherit;
+}
+
+/* Push Button base styles 
+----------------------------------------*/
+button {
+    border: 0 none;
+    display: inline-block;
+    font-size: inherit;
+    font-style: normal;
+    font-variant: normal;
+    min-width: 3.0em;
+    outline: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    z-index: 0;
+}
+
+/* Flat style
+----------------------------------------*/
+input.flat {
+    background-color: transparent;
+    border-radius: 0.2em;
+    color: #000;
+    cursor: pointer;
+    padding: 0.5em 0.5em;
+}
+input.flat:focus {
+    outline: thin dotted #E77916;
+}
+input.flat:hover {
+    background-color: rgb(41, 152, 227);
+    color: #FFF;
+    transition: all 0.1s;
+}
+input.flat > em {
+    font-size: inherit;
+    font-style: inherit;
+}
+
+/* Flat style
+----------------------------------------*/
+button.flat {
+    background-color: transparent;
+    border-radius: 0.2em;
+    color: #000;
+    cursor: pointer;
+    padding: 0.5em 0.5em;
+}
+button.flat:focus {
+    outline: thin dotted #E77916;
+}
+button.flat:hover {
+    background-color: #E77916;
+    color: #FFF;
+    transition: all 0.1s;
+}
+button.flat > em {
+    font-size: inherit;
+    font-style: inherit;
+}
+
+/* Raised style
+----------------------------------------*/
+button.raised {
+    background-color: #EEE;
+    border-radius: 0.2em;
+    color: #000;
+    cursor: pointer;
+    padding: 0.5em 0.5em;
+}
+button.raised:focus {
+    outline: thin dotted #E77916;
+}
+button.raised:hover {
+    background-color: #E77916;
+    color: #FFF;
+    transition: all 0.1s;
+}
+button.raised > em {
+    font-size: inherit;
+    font-style: inherit;
+}
+
+/* Round style
+----------------------------------------*/
+button.round {
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 0;
+}
+button.round:focus {
+    outline: thin dotted #E77916;
+}
+button.round:hover {
+    background-color: #E77916;
+    color: #FFF;
+    transition: all 0.1s;
+}
+button.round > em {
+    display: inline-block;
+    font-size: inherit;
+    font-style: inherit;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    padding-bottom: 50%;
+    padding-top: 50%;
+}

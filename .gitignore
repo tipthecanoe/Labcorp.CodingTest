@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Labcorp.CodingTest.Domain/obj
+/Labcorp.CodingTest.Domain/bin/Debug/netstandard2.0
+/Labcorp.CodingTest.Contract/obj/Debug/netstandard2.0
+/Labcorp.CodingTest.Contract/bin/Debug/netstandard2.0
+/Labcorp.CodingTest.Contract/obj
+/Labcorp.CodingTest.Web/obj/Debug
+*.user

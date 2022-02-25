@@ -1,0 +1,10 @@
+﻿/* Image selectors
+------------------------------------------------------------*/
+.framed-image {
+    background-color: white;
+    border: solid;
+    border-color: #DDDDDD #AAAAAA #AAAAAA #DDDDDD;
+    border-width: 1px 2px 2px 1px;
+    max-height: 200px;
+    padding: 8px;
+}
